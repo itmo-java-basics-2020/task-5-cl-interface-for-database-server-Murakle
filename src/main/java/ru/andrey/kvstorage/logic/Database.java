@@ -2,6 +2,8 @@ package ru.andrey.kvstorage.logic;
 
 import ru.andrey.kvstorage.exception.DatabaseException;
 
+import java.util.Optional;
+
 public interface Database {
     String getName();
 
